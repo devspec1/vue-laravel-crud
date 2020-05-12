@@ -1,11 +1,6 @@
 # vue-laravel-crud
 
-Vue 2.6 + Laravel 6 + Axios CRUD example app
-
-> See https://vuejsdevelopers.com/2018/02/05/vue-laravel-crud/
-> Inspiration from [https://github.com/herusdianto/laravel-vue-crud](https://github.com/herusdianto/laravel-vue-crud)
-
-<img src="demo.gif" width="416">
+Vue  + Laravel 6 + Axios CRUD example app
 
 ### Installation
 
@@ -53,15 +48,3 @@ npm install
 npm run prod
 ````
 
-### Dummy Data
-
-1. Open Tinker
-
-````
-php artisan tinker
-````
-    
-2. Use factory script
-````
-factory(App\Crud::class, 3)->create();
-````
